@@ -1,0 +1,75 @@
+INSERT INTO
+  Student (numstud, name, firstname, dateofbirth, street, postalcod, city)
+VALUES
+  (1, 'Dupont', 'Jean', '1999-04-12', '12 rue A', '75000', 'Paris'),
+  (2, 'Durand', 'Claire', '1998-07-08', '5 avenue B', '69000', 'Lyon'),
+  (3, 'Martin', 'Luc', '1997-11-23', '9 place C', '33000', 'Bordeaux'),
+  (4, 'Lemoine', 'Alice', '2000-02-15', '4 boulevard D', '33000', 'Bordeaux'),
+  (5, 'Petit', 'Marc', '1999-05-21', '14 rue E', '33000', 'Bordeaux'),
+  (6, 'Robert', 'Sophie', '1998-08-30', '2 allée F', '94800', 'Villejuif'),
+  (7, 'Leclerc', 'Paul', '2000-12-01', '3 impasse G', '04180', 'Villeneuve');
+
+  
+INSERT INTO
+  Matter (codemat, wording, coef)
+VALUES
+  ('MATH', 'Mathematics', 2.0),
+  ('PHYS', 'Physics', 1.5),
+  ('ENG', 'English', 1.0);
+  
+  
+INSERT INTO
+  Notation (numstud, numtest, score)
+VALUES
+  (2, 1, 3.73),
+  (3, 1, 20.0),
+  (4, 1, 10.0),
+  (5, 1, 19.6),
+  (7, 1, 20.0),
+  (1, 2, 13.68),
+  (2, 2, 10.4),
+  (3, 2, 3.62),
+  (5, 2, 10.0),
+  (7, 2, 13.62),
+  (1, 3, 9.23),
+  (2, 3, 10.0),
+  (3, 3, 17.65),
+  (4, 3, 10.0),
+  (5, 3, 11.07),
+  (6, 3, 17.65),
+  (7, 3, 10.0),
+  (1, 4, 12.0),
+  (2, 4, 11.07),
+  (3, 4, 16.0),
+  (4, 4, 12.68),
+  (5, 4, 10.0),
+  (6, 4, 19.23),
+  (7, 4, 8.82),
+  (1, 5, 17.95),
+  (2, 5, 10.88),
+  (3, 5, 10.3),
+  (1, 6, 19.23),
+  (2, 6, 8.82),
+  (3, 6, 17.95),
+  (4, 6, 10.88),
+  (5, 6, 10.3);
+  
+  
+  
+  
+    
+  
+INSERT INTO
+  Test (numtest, testdate, place, codemat)
+VALUES
+VALUES
+  (1, '2014-01-15', 'Hall A', 'MATH'),
+  (2, '2014-03-22', 'Hall B', 'MATH'),
+  (3, '2014-06-01', 'Hall A', 'PHYS'),
+  (4, '2015-02-15', 'Hall C', 'PHYS'),
+  (6, '2015-07-10', 'Hall B', 'PHYS'),
+  (5, '2015-07-10', 'Hall D', 'ENG');
+  
+
+
+
